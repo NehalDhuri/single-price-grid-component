@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --cyan-light: hsl(179, 48%, 56%);
+    --bright-Yellow: hsl(71, 73%, 54%);
+    --light-Gray: hsl(204, 43%, 93%);
+    --grayish-Blue: hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: var(--light-Gray);
+}
+
+.card{
+    margin: 20vh auto;
+    max-width: 560px;
+    border-radius: 5px;
+    background-color:white;
+    -webkit-box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+
+}
+
+.upper-section{
+    padding: 20px 35px;
+}
+
+.upper-title{
+    color:var(--cyan);
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.upper-subTitle{
+    color: var(--bright-Yellow);
+    font-weight: 900;
+    margin-top: 10px ;
+}
+
+.upper-para-1{
+    color: var(--grayish-Blue);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.lower-section{
+    display: flex;
+    color: white;
+}
+
+.left-section{
+    flex: 1;
+    padding: 35px 35px 20px 35px;
+    background-color: var(--cyan);
+    border-radius: 0 0 0 5px;
+}
+
+.monthly-sub{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(179, 36%, 67%);
+}
+
+.value{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: white;
+}
+
+.access{
+    font-size: 14px;
+    color: white;
+    margin-top: 8px;
+}
+
+button{
+    background-color: var(--bright-Yellow);
+    border: none;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 0px;
+    margin-top: 18px;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 23px -10px rgba(0,0,0,0.75);
+}
+
+.right-section{
+    flex: 1;
+    padding: 35px 35px 20px 35px;
+    background-color: var(--cyan-light);
+    border-radius: 0 0 5px 0;
+}
+
+.why{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.upper-para-2{
+    font-size: 13px;
+    width: 170px;
+    margin-top: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .card{
+        max-width: 310px;
+    }
+
+    .upper-section{
+        padding: 20px 22px;
+    }
+
+    .lower-section{
+        flex-direction:column
+    }
+
+    .left-section{
+        padding: 25px 22px 20px 22px;
+        border-radius: 0 0 0 0;
+    }
+
+    .access{
+        font-size: 15px;
+    }
+
+    .right-section{
+        padding: 25px 22px 18px 22px;
+        border-radius: 0 0 5px 5px;
+    }
+  }
