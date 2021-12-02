@@ -58,10 +58,11 @@ body{
     padding: 35px 35px 20px 35px;
     background-color: var(--cyan);
     border-radius: 0 0 0 5px;
+    color: hsl(0, 0%, 100%, 0.8);
 }
 
 .monthly-sub{
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 700;
 }
 
@@ -70,7 +71,8 @@ body{
     align-items: center;
     margin-top: 15px;
     font-size: 14px;
-    color: hsl(179, 36%, 67%);
+    /* color: hsl(179, 36%, 67%); */
+    color: hsl(0, 0%, 100%, 0.5);
 }
 
 .value{
@@ -78,12 +80,13 @@ body{
     font-size: 28px;
     font-weight: 700;
     margin-right: 10px;
-    color: white;
+    /* color: white; */
+    color: hsl(0, 0%, 100%, 0.8);
 }
 
 .access{
     font-size: 14px;
-    color: white;
+    /* color: white; */
     margin-top: 8px;
 }
 
@@ -106,10 +109,11 @@ button{
     padding: 35px 35px 20px 35px;
     background-color: var(--cyan-light);
     border-radius: 0 0 5px 0;
+    color: hsl(0, 0%, 100%, 0.6);
 }
 
 .why{
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: 700;
 }
 
@@ -119,6 +123,8 @@ button{
     margin-top: 15px;
     line-height: 20px;
     font-weight: 400;
+    /* color: rgb(132, 230, 228); */
+
 }
 
 footer{
